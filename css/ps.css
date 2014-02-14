@@ -17,7 +17,6 @@ a
 
 .friendposts
 {
-	background-color: #33cec3;
 	color: white;
 	padding: 10px;
 }
@@ -49,16 +48,19 @@ a
 
 	-webkit-border-radius: 30px;
 	-webkit-border-bottom-right-radius: 0;
+	-webkit-border-bottom-left-radius: 0;
 	-moz-border-radius: 30px;
 	-moz-border-radius-bottomright: 0;
+	-moz-border-radius-bottomleft: 0;
 	border-radius: 30px;
 	border-bottom-right-radius: 0;	
+	border-bottom-left-radius: 0;	
 
 	background-color: #6c0aab;
 	color: white;
 	border: 1px solid black;
 	padding: 5px 15px;
-	margin: 10px;
+	margin: 10px 10px 5px 10px;
 	height: auto;
 }
 
@@ -76,4 +78,35 @@ a
 .spRight
 {
 
+}
+
+.fbPost
+{
+	padding: 5px;
+	background-color: #EDEFF4;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	font-size: 11px;
+	line-height: 1.28;
+	text-align: center;
+	direction: ltr;
+	max-height: 208px;
+	margin-left: 10px;
+	margin-right: 10px;
+	overflow: hidden;
+}
+
+.fbName
+{
+	color: #3b5998;
+}
+
+.fbCaption
+{
+	color: gray;
+}
+
+.fbDescription
+{
+	color: gray;
+	margin-top: 3px;
 }
